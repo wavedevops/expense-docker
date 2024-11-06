@@ -1,1 +1,3 @@
-b
+FROM almalinux:9
+RUN yum install -y nginx
+CMD ["nginx", "-g", "daemon off;"]
