@@ -2,13 +2,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python Debugger: gitpp.py",      // Name of the configuration
-            "type": "python",                         // Type set to Python
-            "request": "launch",                      // Launch the program
+            "name": "Python Debugger: gitpp.py",                    // Name of the configuration
+            "type": "python",                                       // Type set to Python
+            "request": "launch",                                    // Launch the program
             "program": "/Users/chowdary/.customCommands/gitpp.py",  // Path to your gitpp.py file
-            "console": "integratedTerminal",           // Output in the integrated terminal
-            "args": [],                               // Add any arguments here if needed
-            "cwd": "/Users/chowdary/IdeaProjects/expense-docker" // Set current working directory to the Git repo
+            "console": "integratedTerminal",                        // Output in the integrated terminal
+            "args": [],                                             // Add any arguments here if needed
+            "cwd": "/Users/chowdary/IdeaProjects/expense-docker"    // Set current working directory to the Git repo
         }
     ]
 }
