@@ -10,6 +10,11 @@
 # RUN npm install
 # CMD [ "node","index.js" ]
 
+################################
+
+#                mysql -h mysql -u root -pExpenseApp@1
+
+################################
 
 # Base image
 FROM node:20
@@ -34,10 +39,11 @@ WORKDIR /opt/server
 
 # Copy package.json and install dependencies
 COPY package.json .
-RUN npm install
 
 # Copy application code
 COPY *.js .
+
+RUN npm install
 
 # Expose the server port
 EXPOSE 8080
