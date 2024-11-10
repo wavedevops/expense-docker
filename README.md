@@ -8,8 +8,6 @@ mysql -u root -pExpenseApp@1
 show databases;
 ```
 
-
-hari 
 ```sql
 use transactions;
 
