@@ -1,7 +1,7 @@
 # remove all data from docker 
 ```shell
-docker system prune -a -f --volumes && docker system prune -a -f --volumes
-```
+docker system prune -a -f --volumes
+```      
 
 # MYSQL Server
 #### **login to MySQL server**
