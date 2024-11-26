@@ -1,0 +1,15 @@
+appName: frontend
+appVersion: 2.0.1
+replicas: 2
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 80
+
+
+ingress:
+  enabled: true
+  port: 80
+  host: frontend-prod.rdevopsb73.online
+
